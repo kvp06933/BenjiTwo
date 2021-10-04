@@ -1,2 +1,2 @@
-# projecttemplate
- Template for projects made with JS and Bootstrap
+# Benji
+Print out 100 numbers to the page.
