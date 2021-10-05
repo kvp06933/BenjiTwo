@@ -1,7 +1,7 @@
 :root{
     --primary-color: #001e43;
     --secondary-color:#ff993b;
-    --dark-color:#300000;
+    --dark-color:#4130ac;
     --white-color: #dfe3e4;
 }
 body{
@@ -53,5 +53,11 @@ footer .social>a:hover  {
     color: rgb(9, 112, 247);
 }
 .fa-li{
-    color:#ff993b;
+    color: var(--dark-color);
+}
+/* display for even numbers in hundo */
+.evenDisplay{
+    font-weight: bolder;
+    color: var(--secondary-color);
+    
 }
