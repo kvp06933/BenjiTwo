@@ -1,7 +1,5 @@
-
-
 //display a message to the user
-function displayBenji(){
+function getValues(){
     //declare the required variables
     let startValue = 0;
     let endValue = 100;
@@ -16,9 +14,9 @@ function displayBenji(){
     if(Number.isInteger(startValue) && Number.isInteger(endValue)){
         //both numbers are integers
 
-        //
+    
        let numbers = generateNumbers(startValue, endValue);
-       displayNumbers(numbers);
+       displayBenji(numbers);
     }else{
         //one or more are not
         Swal.fire("Please enter only integers 1, 2, 3, etc. NOT 1.5, 2/3, Cat");
@@ -40,7 +38,7 @@ function generateNumbers(sValue, eValue){
     return numbers;
 }
 //displays the numbers
-function displayNumbers(numbers){
+function displayBenji(numbers){
     //0 first index value
     //99 last index value
     //length = 100

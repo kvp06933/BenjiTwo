@@ -38,7 +38,7 @@ footer .social>a  {
     color: var(--white-color);
 }
 footer .social>a:hover  {
-    color: var(--secondary-color);
+    color: #fff;
 }
 .fa-js-square{
     color: rgb(236, 236, 79);
